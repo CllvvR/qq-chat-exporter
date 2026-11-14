@@ -11,7 +11,8 @@ restoration artifact; a source rebuild still needs isolated API validation.
 
 QQBackup uses its own local web UI and authenticated loopback interfaces.
 NapCat's personal rkey/signing/proxy dependencies are removed in the companion
-fork: https://github.com/CllvvR/NapCatQQ/tree/qqbackup-selfhost .
+private maintenance repository: https://github.com/CllvvR/NapCatQQ-selfhost .
+The public NapCat fork preserves the unmodified upstream baseline.
 QQBackup controls QCE startup through its on-demand adapter, and keeps QQ
 login data, messages, configuration and credentials outside both repositories.
 
